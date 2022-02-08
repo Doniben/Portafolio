@@ -71,7 +71,7 @@ figure{margin:0; padding:0; }
 }
 
 .masthead-avatar {
-  margin-top: 90px;
+  margin-top: 81px;
   width: 15rem;
   height: 15rem;
 }
@@ -198,6 +198,17 @@ figure{margin:0; padding:0; }
 }
 
 @media all and (max-width: 768px){
+  .hight-tittles {
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    top: 208px;
+  }
+  .masthead-avatar {
+    margin-top: 173px;
+  }
+  .d-none.d-md-block{display: none !important;}
+  #header > div.center > nav > ul {margin-left: 2rem;}
   .menu{display:none;position: absolute;top: 50px;left: 0;right: 0;background-color: #333;z-index: 9999;}
   .socials{margin-top: 100px;}
   .personal_data{width: 100%; margin-right: 0; max-width: 100%;}
