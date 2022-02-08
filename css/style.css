@@ -57,7 +57,7 @@ figure{margin:0; padding:0; }
 .menu ul li{ display: inline-block; list-style: none;}
 .menu ul li a{text-decoration: none; color:#fff; font-size:14px;display: inline-block;padding: 20px 10px; }
 
-.main_content{ margin-top:150px;text-align: center;}
+.main_content{ margin-top:8rem;text-align: center;}
 .main_content h3{font-size: 24px; color:#fff; font-weight: 500;}
 .main_content span{font-size: 36px; color:#fff; font-weight: bold; margin: 20px 0;    display: inline-block;}
 
@@ -197,15 +197,36 @@ figure{margin:0; padding:0; }
   .center{padding: 0 20px; max-width: calc(100% - 40px);}
 }
 
+@media screen and (max-height: 668px) {
+  .socials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 394px) {
+  #header > div.center > nav > ul > li:nth-child(4) {
+    display: none;
+  }
+}
+
+@media screen and (min-height: 670px) and (max-height: 778px) {
+  .scroll {
+    display: none;
+  }
+}
+
 @media all and (max-width: 768px){
   .hight-tittles {
     height: 10px;
     position: absolute;
     left: 0px;
-    top: 208px;
+    top: 11rem;
   }
   .masthead-avatar {
-    margin-top: 173px;
+    margin-top: 10rem;
+  }
+  .socials {
+    margin-top: 50px;
   }
   .d-none.d-md-block{display: none !important;}
   #header > div.center > nav > ul {margin-left: 2rem;}
