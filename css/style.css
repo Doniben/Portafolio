@@ -101,6 +101,8 @@ figure{margin:0; padding:0; }
 	animation: float 6s ease-in-out infinite;
 }
 
+.ml-1{margin-left: 1rem;}
+
 .socials{text-align: center;margin-top: 100px;}
 .socials ul li{width: 30px;height: 30px;border: 10px solid transparent;border-bottom-color: #d6d6d6;position: relative;top: -30px; display: inline-block; margin-right: 10px;}
 .socials ul li:after{content: '';width: 30px;height: 30px;position: absolute;left: -30px;top: 30px;border: 10px solid transparent;border-top-color: #fff; z-index: 9;}
