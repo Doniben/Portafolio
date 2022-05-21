@@ -18,6 +18,26 @@ var portfolioIsotope = function() {
 	};
 };
 
+var skillsIsotope = function() {         
+	if ( $().isotope ) {           
+		var $container = $('.skills_tabs');
+		$container.imagesLoaded(function(){
+			$container.isotope({
+				itemSelector: '.item',
+				transitionDuration: '1s'
+			});
+		});
+
+		$('.skills_links li').on('click',function() {                           
+			var selector = $(this).find("a").attr('data-filter');
+			$('.skills_links li').removeClass('active');
+			$(this).addClass('active');
+			$container.isotope({ filter: selector });
+			return false;
+		});
+	};
+};
+
 
 var googleMap = function() {
 	if ( $().gmap3 ) {
@@ -181,6 +201,7 @@ var googleMap = function() {
 
 
 portfolioIsotope();
+skillsIsotope();
 googleMap();
 
 
