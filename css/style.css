@@ -61,7 +61,7 @@ figure{margin:0; padding:0; }
 .main_content h3{font-size: 24px; color:#fff; font-weight: 500;}
 .main_content span{font-size: 36px; color:#fff; font-weight: bold; margin: 20px 0;    display: inline-block;}
 
-.hight-tittles {
+.high-titles {
   height: 10px;
 }
 
@@ -234,7 +234,7 @@ figure{margin:0; padding:0; }
 }
 
 @media all and (max-width: 768px){
-  .hight-tittles {
+  .high-titles {
     height: 10px;
     position: absolute;
     left: 0px;
